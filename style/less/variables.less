@@ -1,20 +1,22 @@
-// COLORS
 
+@color-white: #fafafa;
+@color-black: #0f0f0f;
+@color-selection: #4f4444;
 
-// Importing after all this so I could use variables
-@import "font-import.less";
-@import "variables.less";
-@import "mixins.less";
+// VARIABLES
+@mobile:  ~"";
+@tablet:    ~"only screen and (min-width: 40rem)"; // 640px
+@desktop:   ~"only screen and (min-width: 64rem)"; // 1024px
+@bigdesktop:   ~"only screen and (min-width: 90rem)"; // 1440px
 
-/* HELPING CLASSES */
+@std-font: "proxima_nova", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+@alt-font: "Open Sans";
 
-.fl {
-	float: left;
-}
-.fr {
-	float: right;
-}
-/* THOSE HEADLINES */
+	//MEDIA VARIABLES
+
+@desktop:   ~"only screen and (min-width: 960px)";
+@tablet:    ~"only screen and (min-width: 720px) and (max-width: 959px)";
+@mobile: 	~"only screen and (max-width: 719px)";
 
 
 *, *:before, *:after {
